@@ -71,4 +71,4 @@ class Card:
         return not self < other
 
     def __str__(self) -> str:
-        return emoji.emojize(f"{self.get_face_card_value()}{self.suit.value} ")
+        return emoji.emojize(f"{self.get_face_card_value()}{self.suit.value}")
