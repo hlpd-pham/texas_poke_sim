@@ -4,15 +4,13 @@ from card import CardDealAmount
 from game import Game
 from utils.strings import to_string
 
-logging.basicConfig(
-    level=logging.INFO,
-    filename="app.log",
-    filemode="w",
-    format="%(asctime)s - %(levelname)s - %(filename)s:%(lineno)s - %(funcName)s - %(message)s",
-)
-
-
-def run():
+if __name__ == "__main__":
+    logging.basicConfig(
+        level=logging.INFO,
+        filename="app.log",
+        filemode="w",
+        format="%(asctime)s - %(levelname)s - %(filename)s:%(lineno)s - %(funcName)s - %(message)s",
+    )
     num_players = 5
     print(f"start game for {num_players} players")
     game = Game(num_players=num_players, debug=True)
@@ -32,6 +30,3 @@ def run():
     print("winners")
     for w in game.find_winners():
         print(f"id:{w.id}, {to_string(w.cards)}, {w.hand_result}")
-
-
-run()
