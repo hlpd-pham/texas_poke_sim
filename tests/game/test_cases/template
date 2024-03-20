@@ -1,0 +1,26 @@
+template = {
+    "Players": [
+        {
+            "ID": "Player1",
+            "InitialDeal": [
+                {"value": "", "suit": ""},
+                {"value": "", "suit": ""},
+            ],
+        },
+        {
+            "ID": "Player2",
+            "InitialDeal": [
+                {"value": "", "suit": ""},
+                {"value": "", "suit": ""},
+            ],
+        },
+    ],
+    "Board": [
+        {"value": "", "suit": ""},
+        {"value": "", "suit": ""},
+        {"value": "", "suit": ""},
+        {"value": "", "suit": ""},
+        {"value": "", "suit": ""},
+    ],
+    "Winners": [""],
+}

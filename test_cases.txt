@@ -1,0 +1,39 @@
+2024-02-15 16:02:29,037 - INFO - game.py:82 - _poplulate_players - dealing cards to 5 players
+2024-02-15 16:02:29,037 - INFO - game.py:34 - _deal_card - dealing cards for player 0
+2024-02-15 16:02:29,038 - INFO - game.py:37 - _deal_card - ['Q♦️ ', '2♠️ ']
+2024-02-15 16:02:29,038 - INFO - game.py:43 - _deal_card - cards type <class 'card.Card'>
+2024-02-15 16:02:29,038 - INFO - game.py:34 - _deal_card - dealing cards for player 1
+2024-02-15 16:02:29,038 - INFO - game.py:37 - _deal_card - ['7♦️ ', '7♣️ ']
+2024-02-15 16:02:29,038 - INFO - game.py:43 - _deal_card - cards type <class 'card.Card'>
+2024-02-15 16:02:29,038 - INFO - game.py:34 - _deal_card - dealing cards for player 2
+2024-02-15 16:02:29,038 - INFO - game.py:37 - _deal_card - ['9♦️ ', '4♦️ ']
+2024-02-15 16:02:29,038 - INFO - game.py:43 - _deal_card - cards type <class 'card.Card'>
+2024-02-15 16:02:29,038 - INFO - game.py:34 - _deal_card - dealing cards for player 3
+2024-02-15 16:02:29,038 - INFO - game.py:37 - _deal_card - ['9♠️ ', 'A♥️ ']
+2024-02-15 16:02:29,038 - INFO - game.py:43 - _deal_card - cards type <class 'card.Card'>
+2024-02-15 16:02:29,038 - INFO - game.py:34 - _deal_card - dealing cards for player 4
+2024-02-15 16:02:29,038 - INFO - game.py:37 - _deal_card - ['2♥️ ', '4♠️ ']
+2024-02-15 16:02:29,038 - INFO - game.py:43 - _deal_card - cards type <class 'card.Card'>
+2024-02-15 16:02:29,038 - INFO - game.py:34 - _deal_card - burn 1 for CardDealAmount.FLOP
+2024-02-15 16:02:29,038 - INFO - game.py:37 - _deal_card - ['10♥️ ']
+2024-02-15 16:02:29,038 - INFO - game.py:43 - _deal_card - cards type <class 'card.Card'>
+2024-02-15 16:02:29,038 - INFO - game.py:34 - _deal_card - CardDealAmount.FLOP
+2024-02-15 16:02:29,038 - INFO - game.py:37 - _deal_card - ['8♥️ ', '8♣️ ', '4♣️ ']
+2024-02-15 16:02:29,038 - INFO - game.py:43 - _deal_card - cards type <class 'card.Card'>
+2024-02-15 16:02:29,038 - INFO - game.py:34 - _deal_card - burn 1 for CardDealAmount.TURN
+2024-02-15 16:02:29,038 - INFO - game.py:37 - _deal_card - ['Q♥️ ']
+2024-02-15 16:02:29,038 - INFO - game.py:43 - _deal_card - cards type <class 'card.Card'>
+2024-02-15 16:02:29,038 - INFO - game.py:34 - _deal_card - CardDealAmount.TURN
+2024-02-15 16:02:29,038 - INFO - game.py:37 - _deal_card - ['4♥️ ']
+2024-02-15 16:02:29,038 - INFO - game.py:43 - _deal_card - cards type <class 'card.Card'>
+2024-02-15 16:02:29,038 - INFO - game.py:34 - _deal_card - burn 1 for CardDealAmount.RIVER
+2024-02-15 16:02:29,038 - INFO - game.py:37 - _deal_card - ['J♠️ ']
+2024-02-15 16:02:29,038 - INFO - game.py:43 - _deal_card - cards type <class 'card.Card'>
+2024-02-15 16:02:29,038 - INFO - game.py:34 - _deal_card - CardDealAmount.RIVER
+2024-02-15 16:02:29,039 - INFO - game.py:37 - _deal_card - ['7♠️ ']
+2024-02-15 16:02:29,039 - INFO - game.py:43 - _deal_card - cards type <class 'card.Card'>
+2024-02-15 16:02:29,039 - INFO - game.py:182 - get_board - board cards - ['8♥️ ', '8♣️ ', '4♣️ ', '4♥️ ', '7♠️ ']
+2024-02-15 16:02:29,039 - INFO - game.py:65 - _evaluating_player_hands - evaluating player hands
+2024-02-15 16:02:29,039 - INFO - game.py:66 - _evaluating_player_hands - players: {'0': "Player(HandResult.HIGH_CARD - 1, cards:['Q♦️ ', '2♠️ '], main_cards: [], kickers: [])", '1': "Player(HandResult.HIGH_CARD - 1, cards:['7♦️ ', '7♣️ '], main_cards: [], kickers: [])", '2': "Player(HandResult.HIGH_CARD - 1, cards:['9♦️ ', '4♦️ '], main_cards: [], kickers: [])", '3': "Player(HandResult.HIGH_CARD - 1, cards:['9♠️ ', 'A♥️ '], main_cards: [], kickers: [])", '4': "Player(HandResult.HIGH_CARD - 1, cards:['2♥️ ', '4♠️ '], main_cards: [], kickers: [])"}
+2024-02-15 16:02:29,039 - INFO - game.py:77 - _evaluating_player_hands - Player(HandResult.TWO_PAIRS - 3, cards:['Q♦️ ', '2♠️ '], main_cards: ['4♣️ ', '4♥️ ', '8♥️ ', '8♣️ '], kickers: ['Q♦️ '])
+

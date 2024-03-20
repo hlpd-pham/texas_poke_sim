@@ -1,0 +1,1 @@
+- move evaluating hand logic into a separate class
